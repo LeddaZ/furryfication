@@ -1,7 +1,7 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v3.5
-versionCode=17
-author=Zackptg5
-description=Magisk Module Template Extended
-updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
+id=furryfication
+name=Furryfication
+version=v1
+versionCode=1
+author=LeddaZ
+description=Adds thermal, powerhint and audio configs from the latest hentaiOS build for raven
+updateJson=https://raw.githubusercontent.com/LeddaZ/furryfication/master/update.json

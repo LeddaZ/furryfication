@@ -1,6 +1,6 @@
 {
-  "version": "v3.5",
-  "versionCode": 17,
-  "zipUrl": "https://raw.githubusercontent.com/Zackptg5/MMT-Extended/install.zip",
-  "changelog": "https://raw.githubusercontent.com/Zackptg5/MMT-Extended/changelog.md"
+  "version": "v1",
+  "versionCode": 1,
+  "zipUrl": "https://github.com/LeddaZ/furryfication/releases/download/v1/furryfication-v1.zip",
+  "changelog": "https://raw.githubusercontent.com/LeddaZ/furryfication/changelog.md"
 }
