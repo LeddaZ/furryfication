@@ -1,5 +1,7 @@
 # Changelog
 
-## v1
+## v2
+- Enable SDR dimming
 
+## v1
 - Initial release
