@@ -2,6 +2,7 @@
 
 ## v4
 - Update displayconfig from hentaiOS
+- Add display calibration from hentaiOS
 
 ## v3
 - Added Pixel 7 Pro displayconfig
