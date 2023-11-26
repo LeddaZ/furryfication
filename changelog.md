@@ -1,5 +1,9 @@
 # Changelog
 
+## v3
+- Added Pixel 7 Pro displayconfig
+- Set build fingerprint to Pixel 8 Pro
+
 ## v2
 - Enable SDR dimming
 
