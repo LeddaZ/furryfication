@@ -3,5 +3,5 @@ name=Furryfication
 version=v1
 versionCode=1
 author=LeddaZ
-description=Adds thermal, powerhint and audio configs from the latest hentaiOS build for raven
+description=Adds thermal, powerhint and audio configs from the latest hentaiOS build for raven. Additionally enables SDR dimming.
 updateJson=https://raw.githubusercontent.com/LeddaZ/furryfication/master/update.json
