@@ -35,11 +35,16 @@
         <transitionPoint>0.6</transitionPoint>
         <minimumLux>5724.62401237</minimumLux>
         <timing>
-            <!-- allow for 5 minutes out of every 30 minutes -->
-            <timeWindowSecs>1800</timeWindowSecs>
-            <timeMaxSecs>300</timeMaxSecs>
-            <timeMinSecs>60</timeMinSecs>
+            <!-- allow for 1 hour out of every 65 minutes -->
+            <timeWindowSecs>3900</timeWindowSecs>
+            <timeMaxSecs>3600</timeMaxSecs>
+            <timeMinSecs>0</timeMinSecs>
         </timing>
+        <refreshRate>
+            <minimum>120</minimum>
+            <maximum>120</maximum>
+        </refreshRate>
+        <thermalStatusLimit>critical</thermalStatusLimit>
         <allowInLowPowerMode>false</allowInLowPowerMode>
         <minimumHdrPercentOfScreen>0</minimumHdrPercentOfScreen>
         <!--sdrHdrRatioMap, backed by spline, must have at least two entries -->
@@ -552,24 +557,9 @@
     <thermalThrottling>
         <brightnessThrottlingMap>
             <brightnessThrottlingPoint>
-                <thermalStatus>light</thermalStatus>
-                <!-- Throttling to 465 nits: (465-2.0)/(600-2.0)*(0.6-0.0)+0.0 = 0.464548495 -->
-                <brightness>0.464548495</brightness>
-            </brightnessThrottlingPoint>
-            <brightnessThrottlingPoint>
-                <thermalStatus>moderate</thermalStatus>
-                <!-- Throttling to 297 nits: (297-2.0)/(600-2.0)*(0.6-0.0)+0.0 = 0.295986622 -->
-                <brightness>0.295986622</brightness>
-            </brightnessThrottlingPoint>
-            <brightnessThrottlingPoint>
-                <thermalStatus>severe</thermalStatus>
-                <!-- Throttling to 213 nits: (213-2.0)/(600-2.0)*(0.6-0.0)+0.0 = 0.211705686 -->
-                <brightness>0.211705686</brightness>
-            </brightnessThrottlingPoint>
-            <brightnessThrottlingPoint>
-                <thermalStatus>critical</thermalStatus>
-                <!-- Throttling to 150 nits: (150-2.0)/(600-2.0)*(0.6-0.0)+0.0 = 0.148494983 -->
-                <brightness>0.148494983</brightness>
+                <thermalStatus>emergency</thermalStatus>
+                <!-- Throttling to 250 nits: (250-2.0)/(600-2.0)*(0.6-0.0)+0.0 = 0.248829431 -->
+                <brightness>0.248829431</brightness>
             </brightnessThrottlingPoint>
         </brightnessThrottlingMap>
     </thermalThrottling>
@@ -590,4 +580,3 @@
         <item>1500</item> <!-- 4: SUN -->
     </screenOffBrightnessSensorValueToLux>
 </displayConfiguration>
-
